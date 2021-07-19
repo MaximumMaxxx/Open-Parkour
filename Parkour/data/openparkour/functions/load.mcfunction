@@ -1,4 +1,4 @@
-tellraw @a {"text": "Open Parkour by MaximumMaxx", "color": "#00ff00"}
+tellraw @p {"text":"Open parkour by MaximumMaxx","color":"gold","clickEvent":{"action":"open_url","value":"https://github.com/MaximumMaxxx/Open-Parkour"}}
 
 #setting up scoreboards for counting
 scoreboard objectives add LeaderBoardSecs dummy
